@@ -1,0 +1,2 @@
+# CertificateVerifierBA
+Projekt za BA 

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Certifikat DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Certifikat DApp</h1>
+    <div class="controls">
+      <button onclick="connectWallet()">Poveži MetaMask</button>
+
+      <h2>➕ Dodaj certifikat</h2>
+      <div class="row">
+        <input id="certIdAdd" placeholder="Unesi ID" />
+        <button onclick="addCertificate()">Dodaj</button>
+      </div>
+
+      <h2>🔍 Provjeri certifikat</h2>
+      <div class="row">
+        <input id="certIdVerify" placeholder="Unesi ID" />
+        <button onclick="verifyCertificate()">Provjeri</button>
+      </div>
+
+      <p id="result"></p>
+
+      <h2>Lista certifikata</h2>
+      <input id="searchBox" placeholder="Filtriraj po imenu..." onkeyup="filterList()" />
+      <button onclick="printList()">Printaj listu</button>
+      <ul id="certList"></ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

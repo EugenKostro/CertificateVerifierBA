@@ -36,6 +36,42 @@
       "artifacts": [
         "CertificateVerifier"
       ]
+    },
+    "/Users/eugenkostro/Desktop/CertificateVerifierBA/contracts/CertificateVerifier.sol": {
+      "lastModificationDate": 1755962874342,
+      "contentHash": "61f2d75680300eafef3a3eb1ad9f2f1d",
+      "sourceName": "contracts/CertificateVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CertificateVerifier"
+      ]
     }
   }
 }

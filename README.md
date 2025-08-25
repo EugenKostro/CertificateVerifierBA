@@ -257,7 +257,7 @@ Implementacija uloga (administrator, izdavatelj, ovjeravatelj).
 Deployment aplikacije na Ethereum testnet mreže (Sepolia, Goerli).
 Dodavanje dodatnih metapodataka za certifikate, poput izdavatelja, datuma izdavanja i vlasnika.
 
-## 10. Zaključak  
+## 10. ZAKLJUČAK
 
 Projekt Certifikat DApp pokazuje kako se blockchain tehnologija može koristiti za jednostavnu, ali sigurnu pohranu i provjeru certifikata.  
 Pametni ugovor napisan u Solidityju osigurava nepromjenjivost podataka, dok frontend izrađen u HTML-u, CSS-u i JavaScriptu omogućuje korisniku jednostavno upravljanje certifikatima kroz pregledno web sučelje.  
@@ -265,4 +265,8 @@ Pametni ugovor napisan u Solidityju osigurava nepromjenjivost podataka, dok fron
 Realizacijom ovog projekta stečeno je iskustvo u razvoju pametnih ugovora, radu s Hardhat okruženjem, povezivanju putem Web3.js i integraciji s MetaMask walletom.  
 Osim toga, implementirane funkcionalnosti poput QR kodova, ispisa liste i filtriranja unosa pokazuju kako se klasične web tehnike mogu kombinirati s blockchain tehnologijom da bi se dobio praktičan i primjenjiv sustav.  
 
-Iako aplikacija u trenutnoj verziji pokriva osnovne potrebe za upravljanje certifikatima, buduće nadogradnje kao što su uvođenje korisničkih uloga, dodavanje metapodataka i deployment na javne testne mreže mogu je dovesti na višu razinu i približiti stvarnim scenarijima primjene u obrazovanju, poslovanju i industriji.  
+Iako aplikacija u trenutnoj verziji pokriva osnovne potrebe za upravljanje certifikatima, buduće nadogradnje kao što su uvođenje korisničkih uloga, dodavanje metapodataka i deployment na javne testne mreže mogu je dovesti na višu razinu i približiti stvarnim scenarijima primjene u obrazovanju, poslovanju i industriji.
+
+## 11. LINK NA VIDEO
+
+[Video korištenja aplikacije](https://youtu.be/IOMRG6-RU5I)  

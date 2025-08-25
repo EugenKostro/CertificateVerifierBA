@@ -46,7 +46,7 @@ async function addCertificate() {
   if (!certId) return alert("Unesi ID certifikata!");
 
   try {
-    showResult("⌛ Čekam potvrdu...", "info");
+    showResult("Čekam potvrdu...", "info");
     const tx = await contract.methods.addCertificate(certId).send({ from: accounts[0] });
     showResult(`Certifikat dodan! Tx hash: ${tx.transactionHash}`, "success");
     addCertToList(certId);

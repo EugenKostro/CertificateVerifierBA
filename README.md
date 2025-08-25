@@ -92,7 +92,7 @@ Naziv mreže: Hardhat Localhost
 
 Nakon dodavanja mreže potrebno je uvesti jedan od računa koje je Hardhat generirao prilikom pokretanja node-a. Privatni ključevi tih računa prikazani su u konzoli, a računi imaju dovoljno testnih sredstava za transakcije.
 
-## 7. KOD
+## 7. KOD I IZGLED APLIKACIJE
 
 ### 7.1 PAMETNI UGOVOR
 
@@ -199,6 +199,43 @@ function addCertToList(certId) {
   list.appendChild(li);
 }
 ```
+## 7.6 IZGLED
+
+#### IZGLED APLIKACIJE
+![Izgled Aplikacije](./assets/IzgledAplikacije.png)
+
+#### POVEZIVANJE SA METAMASKOM
+
+![Povezivanje sa MetaMaskom](./assets/PovezivanjeMetamask.png)
+
+#### TRANSAKCIJA ZA DODAVANJE CERTIFIKATA
+
+![Transakcija za dodavanje certifikata](./assets/TransakcijaDodavanjaCertifikata.png)
+
+#### DODAN CERTIFIKAT
+
+![Dodan certifikat](./assets/DodanCertifikat.png)
+
+#### TRANSAKCIJA ZA UKLANJANJE CERTIFIKATA
+
+![Transakcija za uklanjanje certifikata](./assets/TransakcijaUklanjanjaCertifikata.png)
+
+#### UKLONJEN CERTIFIKAT
+
+![Uklonjen certifikat](./assets/UklanjanjeCertifikata.png)
+
+#### PROVJERA POSTOJANJA CERTIFIKATA
+
+![Provjera postojanja certifikata](./assets/ProvjeraCertifikata.png)
+
+#### FILTRIRANJE CERTIFIKATA
+
+![Filtriranje certifikata](./assets/FiltriranjeCertifikata.png)
+
+#### NEUSPJEŠNO FILTRIRANJE CERTIFIKATA
+
+![Neuspješno filtiranje certifikata](./assets/NeuspjesnoFiltriranje.png)
+
 
 ## 8. PRIMJERI KORIŠTENJA
 
